@@ -14,11 +14,16 @@
 </head>
 <body>
   <div id="cursor"></div>
+  <div class="menu-toggle" id="mobile-menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
 
   <header id="header">
     <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="My Work">Tomomi's Portfolio</a></h1>
-    <nav>         
-      <ul>
+    <nav id="navi">         
+      <ul class="nav-menu">
           <li><a href="about.html">About</a></li>
           <li><a href="works.html">Works</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -33,22 +38,18 @@
 
   <main>
     <div id="mainvisual" class="wrapper">
-      <div class="mv_title"><p>This is Tomomi Sasaki's<br>Portfolio Website.</p></div>
+      <div class="mv_title">
+        <p>This is Tomomi Sasaki's<br>Portfolio Website.</p>
+      </div>
       <picture>
-        <!-- <source media="(max-width: 600px)" srcset="img/mainvisual.png"> -->
         <img src="img/mainvisual1.png" alt="メインビジュアル画像">
       </picture>
     </div>
     <div id="about" class="wrapper">
-      <h2 class="sec-title">About</h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li>jp</li>
-        <li></li>
-      </ul>
-      <p>プロフィールテキストが入る。テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      <h2 class="sec-title"><a href="about.html">About</a></h2>
+      <p>看護師からのキャリアチェンジでWebデザイナーを目指しています。</p>
+      <p>まだまだ駆け出しの身ではありますが前職で培ったコミュニケーション能力を生かしながら</p>
+      <p>クライアントの満足度を高めることができるよう成長していきたいです。</p>
     </div>
 
     <div id="works" class="">
@@ -124,7 +125,7 @@
         <li><a href="contact.html">Contact</a></li>        
         <li>
           <a href="https://www.instagram.com/" target="_blank">
-            <img class="icon" src="img/insta_icon_white.svg" alt="instagram">
+            <img class="footer-insta" src="img/insta_icon_white.svg" alt="instagram">
           </a>
         </li>
        </ul>
